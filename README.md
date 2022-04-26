@@ -9,7 +9,7 @@ mvn archetype:generate                               \
       -DarchetypeVersion=1.14.4
 ```
 
-This repo only contains the files I modified for getting the streaming job to work, so `pom.xml` and `StreamingJob.java`.
+This repo contains all the files from the built Maven project output, but I only modified `pom.xml` and `StreamingJob.java` to get this application to work in Flink.
 
 Once you've modified the files, you can build the JAR file using: `mvn clean package`
 
